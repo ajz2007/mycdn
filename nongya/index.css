@@ -1,0 +1,244 @@
+.tabs-wrapper {
+    /*border: 1px solid #eee;*/
+    border-radius: 2px;
+    background-clip: padding-box;
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.tabs-wrapper .tabs-group {
+    padding: 0;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.tabs-wrapper .tabs-group .title {
+    float: left;
+    padding: 15px 0;
+    width: 40px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    text-align: right;
+    font-size: 14px;
+}
+
+.tabs-wrapper .tabs-group ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 60px;
+}
+
+.tabs-wrapper .tabs-group ul > li {
+    float: left;
+    padding: 10px 12px;
+}
+
+.tabs-wrapper .tabs-group ul > li > a {
+    display: block;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-clip: padding-box;
+    color: #919191;
+    font-size: 14px;
+}
+
+.tabs-wrapper .tabs-group ul > li.active > a,
+.tabs-wrapper .tabs-group ul > li:focus > a,
+.tabs-wrapper .tabs-group ul > li:hover > a {
+    color: #43bc60;
+}
+
+.nav-pills > li > a {
+    padding: 6px 12px;
+}
+
+.search-form input {
+    outline: none;
+}
+
+.search-form input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+.search-form input::-webkit-search-decoration,
+.search-form input::-webkit-search-cancel-button {
+    display: none; /* remove the search and cancel icon */
+}
+
+.search-form input[type=search] {
+    background: #dddddd;
+    padding: 7px 10px 6px 12px;
+    width: 30px;
+
+    border-radius: 3px;
+
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    border: solid 1px #dddddd;
+}
+
+.search-form {
+    float: left;
+}
+
+.search-form:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f002";
+    float: left;
+    margin-right: -33px;
+    width: 33px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    padding: 0.4rem 0 0.275rem 0;
+    line-height: 1.6;
+    pointer-events: none;
+    color: #495057;
+}
+
+.search-form input[type=search]:focus {
+    width: 130px;
+    background-color: #fff;
+    border-color: #6dcff6;
+
+    -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, .8);
+    -moz-box-shadow: 0 0 5px rgba(109, 207, 246, .8);
+    box-shadow: 0 0 5px rgba(109, 207, 246, .8);
+}
+
+.search-form input:-moz-placeholder {
+    color: #999;
+}
+
+.search-form input::-webkit-input-placeholder {
+    color: #999;
+}
+
+.search-form input[type=search] {
+    width: 12px;
+    padding-left: 10px;
+    color: transparent;
+    cursor: pointer;
+}
+
+.search-form input[type=search]:hover {
+    background-color: #fff;
+}
+
+.search-form input[type=search]:focus {
+    width: 130px;
+    padding-left: 32px;
+    color: #000;
+    background-color: #fff;
+    cursor: auto;
+}
+
+.search-form input:-moz-placeholder {
+    color: transparent;
+}
+
+.search-form input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.onlyofficial {
+    padding-top: 8px;
+}
+
+.onlyofficial label {
+    margin-bottom: 0;
+    font-weight: normal;
+    color: #616161;
+}
+
+.notable1 i {
+    display: inline-block;
+    background: url(../../img/nongya/icon.png) no-repeat;
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+}
+.notable1 i.minus {
+    background-position: 0px -709px;
+}
+.notable1 i.plus {
+    background-position: 0px -646px;
+}
+/*市场详细数据*/
+.panel-heading {
+    padding: 10px 15px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    position: relative;
+    font-size: 16px;
+    padding: 15px 0;
+    background: #fff;
+    border-bottom: 1px solid #f5f5f5;
+    color: #333333;
+}
+
+.update-list h2 {
+    font-size: 16px;
+    line-height: 16px;
+    margin: 5px 0;
+}
+.update-list h4 {
+    padding: 10px 0;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #f5f5f5;
+    font-size: 15px;
+    color: #43bc60;
+}
+.update-list ul {
+    margin-bottom: 10px;
+}
+list-unstyled{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.update-list ul li {
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 24px;
+}
+.update-list li {
+}
+.update-list .label {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 0;
+    width: 80px;
+    border-radius: 2px;
+    font-size: 12px;
+    flex-wrap: wrap;
+    ist-style: none;
+}
+.label-success {
+    background-color: #18bc9c;
+}
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
